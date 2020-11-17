@@ -16,7 +16,7 @@ dashboardPage(
       menuItem("Evolução do projeto", tabName = "widgets", icon = icon("line-chart")),
       menuItem("Controle de estoques", tabName = "estoques_sei", icon = icon("inbox")),
       menuItem("Análise de dados", tabName = "dados_sei", icon = icon("area-chart")),
-	  # Link para o Endereço de logout
+      # Link para o Endereço de logout
       menuItem("Sair do Painel", icon = icon("sign-out"), href = paste("logout.php?token=",""), newtab = FALSE),
       uiOutput("logotipo_smit", align="center", style = "padding-top:100px;"),
       
